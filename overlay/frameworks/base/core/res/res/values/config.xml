@@ -272,8 +272,8 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
+         config to 7.
+    <integer name="config_deviceHardwareWakeKeys">64</integer>-->
 
     <!-- Control the behavior when the user long presses the home button
              0 - Nothing
@@ -306,8 +306,8 @@
          The default is false. -->
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 
-    <string name="config_perf_profile_prop">sys.perf.profile</string>
-    <string name="config_perf_profile_default_entry">1</string>
+<!--     <string name="config_perf_profile_prop">sys.perf.profile</string>
+    <string name="config_perf_profile_default_entry">1</string > -->
 
     <!-- Is the device LTE capable -->
     <bool name="config_lte_capable">false</bool>
