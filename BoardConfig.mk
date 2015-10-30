@@ -205,3 +205,11 @@ BOARD_SEPOLICY_DIRS += \
         $(CANCRO_PATH)/sepolicy
 
 -include vendor/xiaomi/cancro/BoardConfigVendor.mk
+
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.2/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+GRAPHITE_OPTS := true
+
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 4.8
